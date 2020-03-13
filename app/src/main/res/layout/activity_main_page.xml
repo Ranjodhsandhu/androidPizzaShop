@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/splash">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="PIZZA SHOP"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSignIN"
+        android:text="Sign In"
+        android:onClick="signIn"
+        android:background="@drawable/btn_back"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+     <Button
+        android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/buttonSignUP"
+        android:text="Sign Up"
+         android:background="@drawable/btn_back"
+         android:textColor="#ffffff"
+         android:textSize="25dp"
+         android:layout_marginTop="10dp"
+         android:layout_marginBottom="10dp"
+         android:layout_marginLeft="15dp"
+         android:layout_marginRight="15dp"/>
+
+</LinearLayout>

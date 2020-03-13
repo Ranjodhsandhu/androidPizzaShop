@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/back_gradient">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextUserName"
+        android:hint="User Name"
+        android:textSize="25dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/editTextPassword"
+       android:hint="Password"
+       android:inputType="textPassword"
+       android:textSize="25dp"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="10dp"
+       android:layout_marginLeft="15dp"
+       android:layout_marginRight="15dp"/>
+
+ <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/editTextConfirmPassword"
+     android:hint="Confirm Password"
+     android:inputType="textPassword"
+     android:textSize="25dp"
+     android:layout_marginTop="10dp"
+     android:layout_marginBottom="10dp"
+     android:layout_marginLeft="15dp"
+     android:layout_marginRight="15dp"/>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Create Account"
+    android:layout_margin="60dp"
+    android:id="@+id/buttonCreateAccount"
+    android:background="@drawable/btn_back"
+    android:textColor="#ffffff"
+    android:textSize="25dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"/>
+
+    </LinearLayout>
